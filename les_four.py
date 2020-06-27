@@ -13,6 +13,12 @@ for i in range(1, len(a)):
     if a[i] > a[i - 1]:
         print(a[i])
 
+print(' task 3')
+print(f'Числа от 20 до 240 кратные 20 или 21 - {[el for el in range(20, 241) if el % 20 == 0 or el % 21 == 0]}')
+
+print('task 4')
+
+
 
 
 
