@@ -8,6 +8,15 @@ def my_calc():
 print(f' Размер заработной платы составил: {my_calc() }')
 
 print('task 2')
+a = [int(i) for i in input('Введите несколько чисел ').split()]
+for i in range(1, len(a)):
+    if a[i] > a[i - 1]:
+        print(a[i])
+
+
+
+
+
 
 
 
