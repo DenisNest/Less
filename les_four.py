@@ -30,6 +30,9 @@ def my_func(el1, el):
 print(f'Список четных значений {[el for el in range(99, 1001) if el % 2 == 0]}')
 print(f'Результат перемножения всех элементов списка {reduce(my_func, [el for el in range(100, 1000) if el % 2 == 0])}')
 
+print('task 6')
+
+
 
 
 
