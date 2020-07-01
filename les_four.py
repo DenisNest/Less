@@ -32,6 +32,47 @@ print(f'Результат перемножения всех элементов 
 
 print('task 6')
 
+from itertools import count
+
+for el in count(int(input('Введите число до 100: '))):
+    if el > 100:
+        break
+    else:
+        print(el)
+
+from itertools import cycle
+
+my_list1 = [True, 435, 'my_name', 81]
+i = 0
+for el in cycle(my_list1):
+    if i > 10:
+        break
+    print(el)
+    i += 1
+
+print('task 7')
+from math import factorial
+from itertools import count
+
+def fact(n):
+    for el in count(1):
+        yield factorial(el)
+
+inter = fact()
+x = 0
+for i in inter:
+    if x < 15:
+        print(i)
+        x += 1
+    else:
+        break
+
+
+
+
+
+
+
 
 
 
