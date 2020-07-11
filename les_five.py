@@ -65,6 +65,9 @@ with open('sal.txt', 'r') as my_file:
         sal.append(i[1])
 print(f'Оклад меньше 20.000 {poor}, средний оклад {sum(map(int, sal)) / len(sal)}')
 
+print('task4')
+
+
 
 
 
